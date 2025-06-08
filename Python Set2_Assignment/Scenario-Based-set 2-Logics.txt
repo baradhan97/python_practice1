@@ -1,0 +1,96 @@
+
+1.	Scenario: You are developing a banking application that categorizes transactions based on the amount entered.
+ Write logic to determine whether the amount is positive, negative, or zero.
+Logics:
+#get the input from user in integer
+#put condition with if that amount entered value is above >0 it is positive and transaction is being processed message
+#elif ==0 print please enter valid amount
+#else print please enter valid amount
+
+2.	Scenario: A digital locker requires users to enter a numerical passcode. As part of a security feature, the system checks the sum of the digits of the passcode.
+ Write logic to compute the sum of the digits of a given number
+Logics:
+#get the input from user in string and store in 'number' variable
+#initialize sum=0
+#Use Comprehension for loop to convert string number to iterate and convert to integer and store in 'intlist' variable 
+#Use for loop to iterate intlist and indent logic as sum=sum +every iterated value
+
+
+
+3.	Scenario: A mobile payment app uses a simple checksum validation where reversing a transaction ID helps detect fraud.
+ Write logic to take a number and return its reverse.
+Logics:
+#get the input from user in string and store in 'number' variable
+#Assign reverseid=''
+#convert number string to stringlist by list(number)
+#Use list.reverse method to reverse the stringlist 
+#Iterate stringlist to store in 'revrseid' in everyloop
+put evrything in function and return it 
+
+
+4.	Scenario: In a secure login system, certain features are enabled only for users with prime-numbered user IDs.
+ Write logic to check if a given number is prime.
+Logics:
+##get the input from user in integer and store in 'number' variable
+#Assign count variable=0
+#Iterate for loop and put range as input number
+#increase the count +1 if number is divisivble by iterated number
+#print prime number if count=2
+
+5.	Scenario: A scientist is working on permutations and needs to calculate the factorial of numbers frequently.
+ Write logic to find the factorial of a given number using recursion.
+Logics:
+#create function called factorial
+#get the input from user in integer to use it as argument in function
+#return 1 if ,number either 0 or 1 in if  condition 
+#put return number*factorial(num-1)which is argument to function and we calling it again
+
+
+6.	Scenario: A unique lottery system assigns ticket numbers where only Armstrong numbers win the jackpot.
+ Write logic to check whether a given number is an Armstrong number.
+Logics:
+#define a function which parameter name is number
+#convert that integer  to string and store in intnum variable 
+#count no of digits by len function and store in digits variable
+#use comprehension for loop to convert it to integer and power of its digits and put entirely in sum function which 
+sums all output  and store in variable called result
+#return with result double equals number variable
+#get number from user and store in num variable
+#put If condition and define function and pass argment as num variable which returns true or false
+#If true print it is armstrong and print not armstrong in else block  
+
+7.	Scenario: A password manager needs to strengthen weak passwords by swapping the first and last characters of user-generated passwords.
+Logics:
+#get input string from user
+#use slicing index method to concat last index then remaining index then first index
+
+
+9.	Scenario: A low-level networking application requires decimal numbers to be converted into binary format before transmission.
+ Write logic to convert a given decimal number into its binary equivalent.
+Logics:
+#checks condition with given number greater than 0
+#in while loop with condition >0,1st divide number by 2
+#store remainder in a string variable and concat every iteration remainder
+#initialise number=number//2 and return that binary
+
+10.	Scenario: A text-processing tool helps summarize articles by identifying the most significant words.
+ Write logic to find the longest word in a sentence.
+Logics:
+#get the sentence using input function
+#split the each word and store in a variable
+#Initialize i=0 and longest word =empty string
+#use while loop to iterate list of words and compare with length of string of longest word
+#assign longest word is iterated word if it is maximum length
+#increment i value in each iteration
+ 
+
+11.	Scenario: A plagiarism detection tool compares words from different documents and checks if they are anagrams (same characters but different order).
+ Write logic to check whether two given strings are anagrams.
+Logics:
+#get the string1 and string2 as input from user and store in two variables
+#convert each word into list by usting list method in store in different two variables
+#use sort method to sort 2 strings and store in another two variable
+#Use if conditon to check sorted strings are equal and is so they are anagrams
+
+
+
